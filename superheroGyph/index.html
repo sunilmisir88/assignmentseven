@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AJAX Giphy Button Review</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body id="wholeThing">
+
+<div class="jumbotron" id="header">
+  <h1>Giphy Assignment</h1>
+  <h4>Click the buttons to display the GIPHY</h4>
+</div>
+
+<form class="form-inline center">  
+  <div class="form-group">
+    <label for="searchInput"></label>
+    <input type="text" id="searchInput">   
+  </div>
+  <!-- Button triggers show to be added -->
+  <input id="addItem" type="submit" value="search">
+</form>
+
+<div class="row">
+  <div class="container">
+    <div class="btn-group inline pull-left">
+      <button class="btn btn-primary" id="item" data-search="Batman">Batman</button>
+      <button class="btn btn-primary" id="item" data-search="Wolverine">Wolverine</button>
+      <button class="btn btn-primary" id="item" data-search="Spiderman">Spiderman</button>
+      <button class="btn btn-primary" id="item" data-search="Captain Planet">Captain Planet</button>
+      <button class="btn btn-primary" id="item" data-search="Venom">Venom</button>
+      <button class="btn btn-primary" id="item" data-search="Goku">Goku</button>
+      <button class="btn btn-primary" id="item" data-search="Carnage">Carnage</button>
+      <button class="btn btn-primary" id="item" data-search="Thor">Thor</button>
+      <button class="btn btn-primary" id="item" data-search="Superman">Superman</button>
+      <button class="btn btn-primary" id="item" data-search="Doomsday">Doomsday</button>
+      <button class="btn btn-primary" id="item" data-search="Hulk">Hulk</button>
+      <button class="btn btn-primary" id="item" data-search="Wonder Woman">Wonder Woman</button>
+
+      <div id="myButtons"></div>
+    </div> <!--end of button group -->
+  </div> <!--end of container -->
+</div> <!--end of row -->
+
+
+<div class="row">
+  <div class="container">
+      <span><div id="gifArea"></div></span>
+  </div> <!--end of container -->
+</div> <!-- end of row  -->
+
+
+<script type="text/javascript" src="game.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>

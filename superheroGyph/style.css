@@ -1,0 +1,35 @@
+#header {
+	background-color:gray;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+
+label {
+	font-size: 18px;
+}
+
+#item {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.center {
+	text-align: center;
+
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+.giphy {
+	padding: 2px;
+	width: 80%;
+}
